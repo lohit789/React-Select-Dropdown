@@ -1,0 +1,11 @@
+Smart Drop down
+The parent is responsible for passing the Array of countries. The child should iterate and display the
+list of countries received. The max no. of items listed in the dropdown should be configureable from
+the parent. Upon user selecting the country, the parent should log the selected the country.
+If the user with Add privilege, then if the location user searching is not part of the list, then possible to
+add
+If user, dont have privilege to Add, dont display the "Add & Select" button.
+If user click on "X more...", then the complete list of countries would be displayed.
+Bonus points:
+If can integrate with Mock API
+Debounce to control user input
